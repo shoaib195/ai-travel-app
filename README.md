@@ -1,1 +1,1 @@
-# IHS-Integrated_health_services_frontend
+# AI Travel App
