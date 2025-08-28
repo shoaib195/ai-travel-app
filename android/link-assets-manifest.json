@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/VisbyRoundCF-Bold.otf",
+      "sha1": "114e0ad658066d663c8e03b5ad628ae2ea683695"
+    },
+    {
+      "path": "assets/fonts/VisbyRoundCF-DemiBold.otf",
+      "sha1": "e13f82b3b3c416fe29e0508db78cd5470db3352d"
+    },
+    {
+      "path": "assets/fonts/VisbyRoundCF-ExtraBold.otf",
+      "sha1": "8dc3c4f28b02bbbc979d761f1c495f80595ab0ad"
+    },
+    {
+      "path": "assets/fonts/VisbyRoundCF-ExtraLight.otf",
+      "sha1": "f5a4715a10a77f632f1a958204b5ea0892843307"
+    },
+    {
+      "path": "assets/fonts/VisbyRoundCF-Heavy.otf",
+      "sha1": "2f39103a0d15dd0dfdfbe9da901a909131d2e74d"
+    },
+    {
+      "path": "assets/fonts/VisbyRoundCF-Light.otf",
+      "sha1": "e8a73f08ae5213245bb4289a7aae8cfff4735fbe"
+    },
+    {
+      "path": "assets/fonts/VisbyRoundCF-Medium.otf",
+      "sha1": "c06c8a8f7b0ccccc601f6b35a8af0084228c2bfa"
+    },
+    {
+      "path": "assets/fonts/VisbyRoundCF-Regular.otf",
+      "sha1": "580fd045cd4e92f28c0ab8b49f439b442219a976"
+    }
+  ]
+}
