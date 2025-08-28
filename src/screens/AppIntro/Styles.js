@@ -1,12 +1,28 @@
-import {Platform, StyleSheet} from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 import Metrics from '../../constants/Metrics';
-import {colorTheme} from '../../constants/ColorConstants';
+import { colorTheme } from '../../constants/ColorConstants';
 import { AppFonts } from '../../constants/AppFonts';
-const {defaultText, secondaryBackground} = colorTheme;
+const { defaultText, secondaryBackground, primaryBackground, whiteText } = colorTheme;
 export const getStyles = () =>
   StyleSheet.create({
     container: {
       flex: 1,
+      backgroundColor: primaryBackground
+    },
+    logo: {
+      width: Metrics.widthRatio(200),
+      height: Metrics.heightRatio(200)
+    },
+    mainLogo: {
+      flex: 1,
+      alignItems: 'center',
+      justifyContent: 'space-between',
+    },
+    splashTitle: {
+      fontSize: Metrics.generatedFontSize(45),
+      fontFamily: AppFonts.visbyBold,
+      color: whiteText,
+      marginBottom: Metrics.heightRatio(25)
     },
     backgroundImage: {
       flex: 1,
@@ -22,7 +38,7 @@ export const getStyles = () =>
       height: Metrics.heightRatio(150),
     },
     buttonContainer: {
-      marginHorizontal:Metrics.widthRatio(24),
+      marginHorizontal: Metrics.widthRatio(24),
       marginBottom: Metrics.heightRatio(34),
       marginTop: Metrics.heightRatio(15),
       justifyContent: 'center',

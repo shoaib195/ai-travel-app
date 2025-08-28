@@ -8,10 +8,13 @@ export const colorConstants = {
   dimRed: '#EC6767',
   simpleGray: '#C9C9C9',
   white: '#FCFCFC',
+  whiteText: '#fff',
+  primary: '#24BAEC'
 };
 
 const textColor = {
   primaryText: colorConstants.white,
+  whiteText: colorConstants.whiteText,
   secondaryText: colorConstants.lightBlue,
   defaultText: colorConstants.darkBlack,
   placeholderText: colorConstants.dimGray,
@@ -25,7 +28,7 @@ const textColor = {
 };
 
 const backgroundColor = {
-  primaryBackground: colorConstants.darkBlack,
+  primaryBackground: colorConstants.primary,
   secondaryBackground: colorConstants.lightBlue,
   defaultBackground: colorConstants.white,
   darkGrayBackground: colorConstants.darkGray,

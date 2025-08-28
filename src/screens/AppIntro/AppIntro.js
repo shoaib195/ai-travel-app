@@ -18,9 +18,17 @@ const AppIntro = ({navigation}) => {
     } catch (err) {}
   };
 
+   useEffect(() => {
+    const timer = setTimeout(() => {
+      appIntroHandler();
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <View style={styles.container}>
-      <ImageBackground
+      {/* <ImageBackground
         source={AppImages.bgImage}
         resizeMode="cover"
         style={styles.backgroundImage}>
@@ -37,7 +45,12 @@ const AppIntro = ({navigation}) => {
             onPress={appIntroHandler}
           />
         </View>
-      </ImageBackground>
+      </ImageBackground> */}
+      <View style={styles.mainLogo}>
+        <Text></Text>
+        <Image source={AppImages.mainLogo} style={styles.logo} resizeMode='contain' />
+        <Text style={styles.splashTitle}>Travenor</Text>
+      </View>
     </View>
   );
 };

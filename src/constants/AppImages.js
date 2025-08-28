@@ -1,3 +1,6 @@
+import mainLogo from '../../assets/img/logo.png';
+
+// OLD
 import congratulation from '../../assets/img/congratulation.png';
 import google from '../../assets/img/google.png';
 import fingerPrint from '../../assets/icons/fingerPrint.png';
@@ -15,6 +18,7 @@ import profileDefault from '../../assets/icons/profileDefault.png';
 import edit from '../../assets/icons/edit.png';
 
 export const AppImages = {
+    mainLogo,
     congratulation,
     google,
     fingerPrint,
